@@ -33,6 +33,7 @@ namespace WindowsFormsApp3.FormCon
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label4
@@ -71,11 +72,22 @@ namespace WindowsFormsApp3.FormCon
             this.label1.TabIndex = 4;
             this.label1.Text = "Form Ban Hang";
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F);
+            this.label5.Location = new System.Drawing.Point(325, 241);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(229, 76);
+            this.label5.TabIndex = 5;
+            this.label5.Text = "Hoang";
+            // 
             // FrmBanHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(954, 637);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -84,8 +96,9 @@ namespace WindowsFormsApp3.FormCon
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmBanHang";
-            this.Text = "FrmBanHang";
+            this.Text = " ";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -95,5 +108,6 @@ namespace WindowsFormsApp3.FormCon
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label5;
     }
 }
